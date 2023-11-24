@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 100vw;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar {
+  background-color: rgb(224, 170, 44);
+  color: rgb(244, 244, 212);
+  height: 60px;
+}
+.navbar a {
+  color: rgb(244, 244, 212);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: rgb(234, 225, 131);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.header {
+  background-image: url(../images/dark-fall.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(199, 189, 171);
+  min-height: 600px;
+}
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.header p {
+  font-size: 24px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  margin-top: 150px;
+}
+.cards {
+  background-color: rgb(234, 173, 103);
+}
+.cards .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+}
+.card {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(245, 196, 100);
+  padding: 40px 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.card img {
+  width: 400px;
+  width: 100%;
+}

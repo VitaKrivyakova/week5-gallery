@@ -100,7 +100,7 @@ h1 {
   margin-top: 150px;
 }
 .cards {
-  background-color: rgb(234, 173, 103);
+  background-image: linear-gradient(rgb(234, 173, 103), rgb(203, 125, 83));
 }
 .cards .container {
   display: flex;
@@ -112,7 +112,7 @@ h1 {
 .card {
   width: 500px;
   height: 400px;
-  background-color: rgb(245, 196, 100);
+  background-image: linear-gradient(rgb(245, 196, 100), rgb(137, 69, 33));
   padding: 40px 40px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -139,8 +139,9 @@ figcaption {
   padding-left: 5px;
 }
 .footer {
-  background-color: rgb(134, 54, 23);
+  background-image: linear-gradient(rgb(187, 98, 51), rgb(113, 42, 4));
 }
+
 .footer .container {
   display: flex;
   flex-direction: column;
@@ -149,6 +150,7 @@ figcaption {
 }
 h2 {
   color: rgb(38, 31, 31);
+  font-size: 26px;
 }
 .icon {
   width: 20px;
@@ -157,7 +159,7 @@ h2 {
 }
 .footer p {
   font-family: "yanone_kaffeesatzextralight";
-  font-size: large;
+  font-size: 22px;
   color: black;
   padding-bottom: 10px;
 }

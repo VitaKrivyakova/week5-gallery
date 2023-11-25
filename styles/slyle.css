@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "interregular";
+  src: url("../fonts/webfontkit-20231125-105212/inter-variablefont_slntwght-webfont.woff")
+      format("woff"),
+    url("../fonts/webfontkit-20231125-105212/inter-variablefont_slntwght-webfont.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yanone_kaffeesatzextralight";
+  src: url("../fonts/Yanone/webfontkit-20231125-113145/yanonekaffeesatz-variablefont_wght-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Yanone/webfontkit-20231125-113145/yanonekaffeesatz-variablefont_wght-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "amatic_scregular";
+  src: url("../fonts/Amatic-regular/amaticsc-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Amatic-regular/amaticsc-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "amatic_scbold";
+  src: url("../fonts/Amatic-bold/amaticsc-bold-webfont.woff2") format("woff2"),
+    url("../fonts/Amatic-bold/amaticsc-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -88,4 +121,20 @@ h1 {
 .card img {
   width: 400px;
   width: 100%;
+}
+figcaption {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-family: "amatic_scbold";
+  font-size: 26px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.card:first-of-type {
+  padding-top: 60px;
+}
+.card a {
+  padding-left: 5px;
 }

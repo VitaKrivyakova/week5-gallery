@@ -79,8 +79,12 @@ ul {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  transition: all 0.2s ease-in-out;
 }
-
+.logo:hover {
+  color: rgb(224, 109, 7);
+  transform: scale(1.1);
+}
 /* HEADER */
 
 .header {
